@@ -1,0 +1,70 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:lightgreen;
+  position:fixed;
+
+}
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.pro{
+  text-align:center;
+  padding: 40px;
+}
+#about{
+  background-color:rgb(10, 7, 8);
+}
+#biodata{
+  text-align:center;
+  background-color: lightskyblue;
+}
+#contact{
+  background-color: rgb(193, 255, 122);
+  margin:60px;
+  padding:60px;
+}
+#hey{
+  display:inline;
+  background-color:red;
+  padding-left:180px;
+  color:white;
+  font-size:large;
+}
+#comeon{
+  display:inline;
+  background-color:red;
+  padding-left:120px;
+  color:white;
+  font-size:large;
+}
+#on{
+  display:inline;
+  background-color:red;
+  padding-left:300px;
+  color:white;
+  font-size:large;
+}
+.fill{
+  text-align: center;
+}
+#photos{
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+#pho{
+  text-align:center;
+}
